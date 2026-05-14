@@ -1,0 +1,13 @@
+# Skip Hire AI MCP - Auto-trigger Rules
+
+When the user asks about skip hire, waste carrier, EA registration, EWC codes, hazardous waste, duty of care, use skip-hire-ai-mcp tools:
+
+- **check_waste_carrier_registration**: EA waste carrier registration status verification
+- **ewc_code_lookup**: European Waste Catalogue code lookup with hazardous flagging
+- **consignment_note_template**: Hazardous waste consignment note generator
+- **waste_transfer_note**: Section 34 waste transfer note generator
+- **duty_of_care_check**: Environment Protection Act duty of care compliance scan
+
+Install: `pip install skip-hire-ai-mcp`
+
+By MEOK AI Labs — trade vertical compliance MCP. Pairs with meok-attestation-api for signed compliance certs.
