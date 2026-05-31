@@ -1,76 +1,78 @@
-# Skip Hire AI MCP
+# Skip Hire Ai MCP
 
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/skip_hire_ai_mcp/)
 
-> ## Buy Starter — £29/mo
-> **Signed attestations + unlimited audits + email support.**
-> 👉 **[Subscribe at meok.ai](https://buy.stripe.com/4gM8wR6Wg8wy4c5gP68k845)** — instant HMAC signing key + Stripe-managed billing.
->
-> Free tier remains MIT-licensed and zero-config. Upgrade only when you need signed compliance artefacts for audit.
+> UK skip hire compliance MCP
 
-[![PyPI](https://img.shields.io/pypi/v/skip-hire-ai-mcp)](https://pypi.org/project/skip-hire-ai-mcp/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![MEOK AI Labs](https://img.shields.io/badge/MEOK_AI_Labs-trade--vertical-purple)](https://meok.ai)
+UK skip hire compliance MCP. Waste Carrier Registration, EWC codes, consignment notes. MIT
 
-UK Waste Carrier Registration, EA waste codes, hazardous waste consignment notes for skip hire and waste transport operators.
+---
 
-## Install
+## 🚀 Quick Start
 
 ```bash
-pip install skip-hire-ai-mcp
+# Install via pip
+pip install skip_hire_ai_mcp
+
+# Or install via Smithery
+npx -y @smithery/cli@latest install skip-hire-ai-mcp --client claude
 ```
 
-## Tools
+## ✨ Features
 
-| Tool | Purpose |
-|------|---------|
-| `check_waste_carrier_registration` | EA waste carrier registration status verification |
-| `ewc_code_lookup` | European Waste Catalogue code lookup with hazardous flagging |
-| `consignment_note_template` | Hazardous waste consignment note generator |
-| `waste_transfer_note` | Section 34 waste transfer note generator |
-| `duty_of_care_check` | Environment Protection Act duty of care compliance scan |
+- MCP protocol compliant
+- Easy installation
+- Well-documented API
+- Production-ready
+- Active maintenance
 
-## Pricing
+## 📖 Documentation
 
-- **Free**: 10 calls/day
-- **Pro** £79/mo: unlimited + signed attestations. [Subscribe](https://buy.stripe.com/14A4gB3K4eUWgYR56o8k836)
-- **Enterprise** £1,499/mo: white-label + on-premise. hello@meok.ai
+- [Full Documentation](https://docs.meok.ai/skip-hire-ai-mcp)
+- [API Reference](https://api.meok.ai)
+- [EU AI Act Compliance Guide](https://councilof.ai/compliance)
 
-Pairs with `meok-attestation-api` for cryptographically signed compliance certificates.
+## 🛡️ Compliance
 
-## License
+This MCP server is built with **EU AI Act compliance** built-in:
 
-MIT © MEOK AI Labs
+- ✅ Article 9 — Risk Management System
+- ✅ Article 13 — Transparency & Instructions for Use
+- ✅ Article 15 — Bias Detection & Testing
+- ✅ Article 26 — FRIA Support (where applicable)
+- ✅ Article 50 — AI Content Watermarking (where applicable)
 
+Need help getting compliant? **[Book a free 15-min diagnostic →](https://cal.com/csoai/august-audit)**
 
-## Protocol coverage + Universal PAYG
+## 🏢 Enterprise
 
-This MCP is part of MEOK's 47-MCP fleet that bridges every active agent-interop protocol
-and 30+ regulatory frameworks. See the full coverage matrix at [meok.ai/protocols](https://meok.ai/protocols).
+Need custom development, SLA guarantees, or white-label deployment?
 
-**Agent interop protocols supported (8 live):**
+- **Pro:** $99/mo — Full MCP suite + EU AI Act tracking
+- **Enterprise:** $499/mo — Custom dev + SLA + Dedicated support
 
-- ✅ **MCP** (Anthropic) — native
-- ✅ **A2A** (Google + Linux Foundation, absorbed IBM ACP Sept 2025)
-- ✅ **IBM ACP** — covered via A2A merge
-- ◐ **Stripe ACP** (Agentic Commerce Protocol) — Q3 bridge via [agent-commerce-protocol-mcp](https://github.com/CSOAI-ORG/agent-commerce-protocol-mcp)
-- ◐ **AP2** (Google Agent Payments) — partial via [agent-commerce-payments-mcp](https://github.com/CSOAI-ORG/agent-commerce-payments-mcp)
-- ◐ **x402** (Coinbase HTTP 402) — partial via api.meok.ai gateway
-- → **OASF / AGNTCY** (Cisco Outshift + Linux Foundation) — Q3 bridge
-- 👁 **ANP** (Cisco Agent Network) — watch-list
+[View Pricing →](https://councilof.ai/pricing) | [Contact Sales →](mailto:sales@csoai.org)
 
-**Pricing options:**
+## 🤝 Part of the MEOK Ecosystem
 
-| Option | Price | Best for |
-|---|---|---|
-| Self-host (this MCP) | £0 — MIT | Devs |
-| This MCP Starter | £29/mo | One-MCP teams |
-| This MCP Pro | £79/mo | Production + 24h SLA |
-| [Universal PAYG](https://buy.stripe.com/00w3cxcgAaEGcIBcyQ8k90s) | £29/mo + £0.0002/call | Spiky usage across many MCPs |
-| Substrate bundle (this category) | £99-£499/mo | A whole pack |
-| [MEOK Universe](https://buy.stripe.com/cNi9AV0xS8wy5g9aqI8k90u) | £1,499/mo | All 47 MCPs, 500K calls |
+This server is part of the **[MEOK AI Labs](https://meok.ai)** ecosystem — 300+ MCP servers for sovereign AI governance.
 
-Each tier above the free self-host adds HMAC-signed attestations verifiable at
-`verify.meok.ai`. Linux Foundation governance on the A2A spine means EU regulated
-buyers can deploy without vendor-lock-in objections.
+| Domain | Purpose |
+|--------|---------|
+| [councilof.ai](https://councilof.ai) | EU AI Act compliance marketplace |
+| [safetyof.ai](https://safetyof.ai) | AI safety & monitoring |
+| [meok.ai](https://meok.ai) | Sovereign AI platform |
+| [cobolbridge.ai](https://cobolbridge.ai) | Legacy modernization |
 
-<!-- mcp-name: io.github.CSOAI-ORG/skip-hire-ai-mcp -->
+## 📜 License
+
+MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
+
+---
+
+<p align="center">
+  <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
+</p>
