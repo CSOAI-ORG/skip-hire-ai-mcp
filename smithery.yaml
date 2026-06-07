@@ -1,0 +1,28 @@
+name: skip-hire-ai-mcp
+description: 'MCP server: skip-hire-ai-mcp'
+version: 1.0.5
+author: MEOK AI Labs
+homepage: https://safetyof.ai
+repository: https://github.com/MEOK-AI-Labs/skip-hire-ai-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: check_waste_carrier_registration
+  description: EA waste carrier registration status verification
+- name: ewc_code_lookup
+  description: European Waste Catalogue code lookup with hazardous flagging
+- name: consignment_note_template
+  description: Hazardous waste consignment note generator
+- name: waste_transfer_note
+  description: Section 34 waste transfer note generator
+- name: duty_of_care_check
+  description: Environment Protection Act duty of care compliance scan
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

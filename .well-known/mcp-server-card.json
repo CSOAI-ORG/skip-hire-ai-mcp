@@ -1,0 +1,28 @@
+{
+  "name": "skip-hire-ai-mcp",
+  "title": "Skip Hire Ai Mcp",
+  "description": "UK Waste Carrier Registration, EA waste codes, hazardous waste consignment notes for skip hire and waste transport operators.",
+  "version": "1.0.4",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "check_waste_carrier_registration"
+    },
+    {
+      "name": "ewc_code_lookup"
+    },
+    {
+      "name": "consignment_note_template"
+    },
+    {
+      "name": "waste_transfer_note"
+    },
+    {
+      "name": "duty_of_care_check"
+    }
+  ]
+}

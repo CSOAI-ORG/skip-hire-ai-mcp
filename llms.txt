@@ -1,0 +1,21 @@
+# skip-hire-ai-mcp
+
+> UK Waste Carrier Registration, EA waste codes, hazardous waste consignment notes for skip hire and waste transport operators.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- check_waste_carrier_registration
+- ewc_code_lookup
+- consignment_note_template
+- waste_transfer_note
+- duty_of_care_check
+
+## Install
+```
+pip install skip-hire-ai-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/skip-hire-ai-mcp/
+- Docs: https://meok.ai

@@ -34,6 +34,9 @@ npx -y @smithery/cli@latest install skip-hire-ai-mcp --client claude
 - [Full Documentation](https://docs.meok.ai/skip-hire-ai-mcp)
 - [API Reference](https://api.meok.ai)
 - [EU AI Act Compliance Guide](https://councilof.ai/compliance)
+- **Free**: 10 calls/day
+- **Pro** £79/mo: unlimited + signed attestations. [Subscribe](https://buy.stripe.com/00wfZjcgAeUW4c5cyQ8k90K)
+- **Enterprise** £1,499/mo: white-label + on-premise. hello@meok.ai
 
 ## 🛡️ Compliance
 
@@ -76,3 +79,45 @@ MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
 <p align="center">
   <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
 </p>
+<!-- mcp-name: io.github.CSOAI-ORG/skip-hire-ai-mcp -->
+
+<!-- BUY-LADDER:START -->
+
+## 💸 Try MEOK in 30 seconds — instant buy ladder
+
+| Tier | Price | What you get | Stripe |
+|---|---|---|---|
+| Smoke test | **£1** | Signed sample MCP-Hardening report + Article 50 PDF | <https://buy.stripe.com/dRmcN75ScdQS7oh1Uc8k90U> |
+| Quick Kit | **£9** | EU AI Act Article 50 implementation guide (C2PA + EU-Icon) | <https://buy.stripe.com/cNi00la8s1460ZT0Q88k90V> |
+| Founder Call | **£29** | 30-min 1-on-1 with the founder | <https://buy.stripe.com/8x228ta8s6oqbExaqI8k90W> |
+
+> Refundable. UK Stripe — VAT-clean. Builds on the 81-MCP MEOK fleet.
+> Verify any signed report at <https://meok.ai/verify>.
+
+<!-- BUY-LADDER:END -->
+
+
+
+## Configuration
+
+Add to your `claude_desktop_config.json` (Claude Desktop) or your MCP client config:
+
+```json
+{
+  "mcpServers": {
+    "skip-hire-ai-mcp": {
+      "command": "uvx",
+      "args": ["skip-hire-ai-mcp"]
+    }
+  }
+}
+```
+
+Or: `pip install skip-hire-ai-mcp` then run the `skip-hire-ai-mcp` command (stdio transport).
+
+## Examples
+
+Once configured, ask your assistant, for example:
+- "Use `check_waste_carrier_registration` to …"
+- "Use `ewc_code_lookup` to …"
+- "Use `consignment_note_template` to …"
