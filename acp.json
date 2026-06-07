@@ -1,0 +1,23 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "skip-hire-ai-mcp",
+    "description": "UK Waste Carrier Registration, EA waste codes, hazardous waste consignment notes for skip hire a...",
+    "version": "1.0.4",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "skip-hire-ai-mcp"
+      }
+    ],
+    "capabilities": [
+      "check_waste_carrier_registration",
+      "ewc_code_lookup",
+      "consignment_note_template",
+      "waste_transfer_note",
+      "duty_of_care_check"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "skip-hire-ai-mcp",
+  "description": "UK Waste Carrier Registration, EA waste codes, hazardous waste consignment notes for skip hire a...",
+  "url": "https://proofof.ai/scorecard/skip-hire-ai-mcp.html",
+  "version": "1.0.4",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "check_waste_carrier_registration",
+      "name": "Check Waste Carrier Registration",
+      "description": "check_waste_carrier_registration via skip-hire-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "ewc_code_lookup",
+      "name": "Ewc Code Lookup",
+      "description": "ewc_code_lookup via skip-hire-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "consignment_note_template",
+      "name": "Consignment Note Template",
+      "description": "consignment_note_template via skip-hire-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "waste_transfer_note",
+      "name": "Waste Transfer Note",
+      "description": "waste_transfer_note via skip-hire-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "duty_of_care_check",
+      "name": "Duty Of Care Check",
+      "description": "duty_of_care_check via skip-hire-ai-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
