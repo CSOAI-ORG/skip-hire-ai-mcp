@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "skip-hire-ai-mcp": {
+      "command": "uvx",
+      "args": [
+        "skip-hire-ai-mcp"
+      ]
+    }
+  }
+}
