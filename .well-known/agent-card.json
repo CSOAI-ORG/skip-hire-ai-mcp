@@ -1,0 +1,117 @@
+{
+  "name": "Skip Hire Ai Mcp",
+  "version": "1.0.4",
+  "url": "https://mcp.meok.ai/skip-hire-ai-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "UK Waste Carrier Registration, EA waste codes, hazardous waste consignment notes for skip hire and waste transport operators.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "check_waste_carrier_registration",
+      "name": "Check Waste Carrier Registration",
+      "description": "Check Waste Carrier Registration — a tool of the skip-hire-ai-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "ewc_code_lookup",
+      "name": "Ewc Code Lookup",
+      "description": "Ewc Code Lookup — a tool of the skip-hire-ai-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "consignment_note_template",
+      "name": "Consignment Note Template",
+      "description": "Consignment Note Template — a tool of the skip-hire-ai-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "waste_transfer_note",
+      "name": "Waste Transfer Note",
+      "description": "Waste Transfer Note — a tool of the skip-hire-ai-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "duty_of_care_check",
+      "name": "Duty Of Care Check",
+      "description": "Duty Of Care Check — a tool of the skip-hire-ai-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "skip-hire-ai-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
