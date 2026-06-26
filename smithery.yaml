@@ -3,7 +3,7 @@ description: 'MCP server: skip-hire-ai-mcp'
 version: 1.0.5
 author: MEOK AI Labs
 homepage: https://safetyof.ai
-repository: https://github.com/MEOK-AI-Labs/skip-hire-ai-mcp
+repository: https://github.com/CSOAI-ORG/skip-hire-ai-mcp
 license: MIT
 categories:
 - compliance
